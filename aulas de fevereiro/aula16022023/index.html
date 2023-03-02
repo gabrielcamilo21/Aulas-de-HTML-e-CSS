@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula de HTML e CSS</title>
+</head>
+
+<body>
+
+    <h3>Cadastro de Perfil</h3>
+    <!-- <form> -> caixa do formulario -->
+    <!-- <input>, <textarea>, <select>, -- campos do formulario  -->
+    <!-- <label> Rotulo de um campo do formulario -->
+        <!-- <fieldset></fieldset> para colocar em uma caixinha -->
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <!-- exemplos -->
+
+            <label for="cNome">Nome:</label>
+            <input required type="text" id="cNome" name=" nome" placeholder="digite seu nome aqui" minlength="1"
+                maxlength="50" size="50"> <br>
+
+            <label for="cSENHA"> senha:</label>
+            <input required type="password" id="cSENHA" name="senha" placeholder="digite sua senha"> <br>
+
+            <label for="cEmail">Email:</label>
+            <input required type="email" id="cEmail" name="email"> <br>
+
+            <label for="cTelefone">Telefone:</label>
+            <input required type="tel" id="cTelefone" name="telefone"> <br>
+
+            URL do Instagram:
+            <input type="url" name="url"> <br>
+
+            Idade:
+            <input type="number" name="idade" min="0" max="130"> <br>
+
+            Data de Nas:
+            <input type="date" name="data nas" min="2000-01-01 " max=2023-02-16> <br>
+
+            Hora de nascimento:
+            <input type="time" name="hora nas"> <br>
+
+            Data e Hora Nascimento
+            <input type="datetime-local" nada="horaNasc"> <br>
+
+            Foto de Perfil:
+            <input type="file" name="fotoPerfil" multiple> <br>
+
+            Interesses:
+            Humanas <input name="interesses" type="checkbox">
+            Exatas <inputname="interesses" type="checkbox">
+                Linguagens <input name="interesses" type="checkbox"> <br>
+
+                Escolha sua cor favorita:
+                <input type="color" name="corFavor"> <br>
+
+                Sexo:
+                Masculino<input type="radio" name="sexo">
+                Feminino:<input type="radio" checked name="sexo"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Extras</legend>
+        nivel de ingles
+        1 <input type="range" name="ingles" min="0" max="5" value="0"> 10 <br>
+
+        Escondigo: (veja em inspecionar)
+        <input type="hidden" name="escondido" value="65858585"> <br>
+
+        Conte um pouco sobre voce <br>
+        <textarea cols="40" placeholder="digite seu texto aqui" name="texto">    </textarea><br>
+
+
+        escolariadade
+        <select name="escolaridade">
+            <option>
+            <option disabled selected>selecione uma opçao </option>
+            <option>ensino fundamental</option>
+            <option>ensino medio</option>
+            <option>ensino superior</option>
+            </option>
+        </select>
+    </fieldset>
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button tyoe="submit">Enviar</button>
+        <button tyoe="button">Nao faz nada</button>
+        <button tyoe="reset">reiniciar </button>
+     </form>
+    </body>
+</html>

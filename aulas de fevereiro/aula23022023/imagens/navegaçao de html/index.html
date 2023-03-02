@@ -1,0 +1,78 @@
+<!--
+    CSS -> cascading Style Sheet
+    inline -> na mesma linha do código
+    interno -> <style> em alguma tag
+    externo -> style.css
+-->
+<!-- prioridades CSS: 
+     Inline, interno, externo  
+      -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <img src="https://soulcode.com/assets/img/logo.png" alt="">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        li {
+            font-family: sans-serif;
+        }
+
+        footer {
+            color: orange;
+        }
+
+        strong {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" style="color: black;">Home</a>
+                </li>
+                <li>
+                    <a href="./contato.html" style="color:green;">Contato</a>
+                </li>
+                <li> <a href="./imprensa.html">Imprensa</a>
+                </li>
+                <li>
+                    <a href="./sobre.html">sobre
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 style="font-family: arial;">Home</h1>
+            <p id="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sint a eveniet rerum
+                maiores pariatur, hic expedita numquam aspernatur amet, laboriosam harum perferendis. <i>Porro</i> assumenda
+                corporis beatae facere quaerat asperiores?</p>
+            <p id="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam odit sequi id molestias
+                tempora. <i>Dolores </i>dolorum nam eum sequi cumque et! Numquam ipsam, vero perferendis amet unde quas tempora
+                iure!</p>
+        </section>
+
+        <section>
+            <article class="artigo">
+                <img src="./imagens/Cópia de eu-a-patroa-e-as-criancas.jpeg">
+                <small>
+                    Capa da serie eu-a-patroa-e-as-criancas
+                </small>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <small> &copf; <strong>soulcode</strong>.com.todos os direitos reservados </small>
+    </footer>
+</body>
+
+</html>

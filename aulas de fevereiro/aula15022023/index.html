@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>aula 2 de HTML e CSS</title>
+</head>
+
+<body>
+    <h2 title="titulo de imagem">imagem</h2>
+    <figure>
+        <img title = "capa eu a patroa e as criancas"
+        width="300 " height="200" src="./midias/Cópia de eu-a-patroa-e-as-criancas.jpeg"
+            alt=" capa eu a patroa e as crianças">
+        <figcaption> Capa eu a patroa e as crianças
+    </figure>
+
+    <h2>video</h2>
+    <video width="350" height="350" src="./midias/abertura-chaves.mp4" controls="true"></video>
+
+    <h2>Audio</h2>
+    <audio src="./midias/abertura-um-maluco-no-pedaco.mp3" controls></audio>
+    </figcaption>
+
+    <br>
+    <br>
+
+    <h2> listas</h2>
+    <h3>Lista nao ordenadas (lista de compras)</h3>
+
+    <ul>
+        <li>farinha </li>
+        <li> pó</li>
+        <li>leite</li>
+        <li>ovos</li>
+    </ul>
+    <br>
+
+    <h3>Lista ordenada</h3>
+    <!-- lista oredenda -->
+    <ol>
+        <li>misture todos os ingredientes</li>
+        <li>aquea no forno em 180°C</li>
+        <li>coloque a mistura na forma e leve ao forno
+    </ol>
+
+    <h3>lista aninhadas</h3>
+    <ul>
+        <li>cafe da manha</li>
+        <ul>
+            <li> pao</li>
+            <li>café</li>
+        </ul>
+        <li>almoço
+            <ul>
+                <li>arroz</li>
+                <li>feijao</li>
+
+            </ul>
+        <li>jantar</li>
+        <ul>
+            <li>arroz</li>
+            <li>feijao</li>
+
+        </ul>
+        </li>
+    </ul>
+    <ol>
+        <li>recolha suas
+            <ol>
+                <li>veja no quarto
+                </li>
+                <li>veja no banheiro</li>
+            </ol>
+
+        </li>
+        <h3>Lista de descriçao</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>O HTML (HyperText Markup Language ou Linguagem De Marcaçao de HyperText)é uma linguagem que estrutura
+                elementos visuais de uma pagina web.
+            </dd>
+            <dt>CSS</dt>
+            <dd>O CSS (CASCADING STYLE SHEET ou folhas de estilo em cascata) é uma linguagem de estilizaçao utilizada
+                para melhorar a aparencia visual de elementos em documento HTML
+            </dd>
+        </dl>
+
+        <!-- atributos especificos-(src, href, width, target)
+
+        atributos globais-(id, class, title)
+     -->
+    <hr> <br><br>
+
+    <h2>Tabelas</h2>
+
+    <!-- <tr></tr> representar linha -->
+    <!-- <td></td> para faazer linhas -->
+    <!-- <th></th> dar destaque  -->
+    <!-- <thead> </thead> cabeçalho -->
+    <!-- <tbody></tbody> corpo da tabela -->
+    <!-- <tfoot></tfoot> rodapé da tabela -->
+    <table border="1">
+        <colgroup>
+            <col style="width:150px "> <!--coluna-->
+            <col style="width: 150px"><!--coluna-->
+            <col style="width: 80px"><!--coluna-->
+            <col style="width: 100px"><!--coluna-->
+        </colgroup>
+        <thead>
+        <tr>
+            <th>nome</th>
+            <th>aréa</th>
+            <th>idade</th>
+            <th>estado</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>GarielC</td>
+            <td>full stack</td>
+            <td>22anos</td>
+            <td rowspan="3">sao paulo</td>
+        </tr>
+        <tr>
+        <td>RafaelC</td>
+        <td>full stack</td>
+        <td>27 anos</td>
+       
+        </tr>
+        <tr> 
+            <td>peter</td>
+            <td>full stack</td>
+            <td>27 anos</td>
+            </tbody>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">professor soul code </td>
+        </tr>
+    </table>
+
+     <h3>Times Do Brasil</h3>
+     <table border="1">
+ <tr>
+     <th>Time</th>
+     <th>pontos</th>
+     <th>gols</th>
+     <th>vitorias</th>
+</tr>
+    <tr>
+        <td>fluminense</td>
+        <td>200</td>
+        <td>20</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>flamengo</td>
+        <td>100</td>
+        <td>15</td>
+        <td>10</td>
+    </tr>
+     <tr>  
+        <td>vasco</td>
+        <td>50</td>
+        <td>10</td>
+        <td>5</td>
+      </tr>
+      <tfoot>
+        <td colspan="4">Times brasileiros
+    </colspan>
+      </tfoot>
+></table>
+
+  </body>
+</html>

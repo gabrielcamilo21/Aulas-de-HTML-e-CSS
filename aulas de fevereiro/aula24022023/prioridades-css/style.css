@@ -1,0 +1,22 @@
+h1{
+    color: brown;
+}
+p{
+    color: black;
+}
+i {
+    color: purple
+}
+b{
+    color:aqua
+}
+div img{
+    width: 200px;
+    height: 200px;
+}
+
+
+img{
+    width:300px ;  /*largura*/
+    height:300px ;/*altura*/
+}

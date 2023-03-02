@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(219, 218, 218);
+}
+
+.card {
+    width: 300px;
+    display: inline-block !important;
+}
+
+.carousel {
+    width: clanp:(320px, 100%, 500px);/*min, relativo, maxi*/
+    margin: 10px auto;
+}

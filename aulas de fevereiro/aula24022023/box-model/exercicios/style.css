@@ -1,0 +1,15 @@
+    article{
+        box-sizing:2px border-box;
+        width: 300px;
+        border: 2px solid black;
+        display: inline-block;
+        margin: 20px;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        text-align: justify ;
+        font-family: Calibri, sans-serif;
+        margin: 20px 30px;
+    }

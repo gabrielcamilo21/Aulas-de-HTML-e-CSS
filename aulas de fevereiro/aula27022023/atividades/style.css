@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  
+}
+body{
+    background-image: url(./praias-brasil-sancho.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(46, 40, 40);
+    padding: 20px;
+}
+header a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-family:Calibri, sans-serif
+}
+header a:hover{
+    transform: scale(1.1);
+}
+header a:active{
+    background-color: rgb(43, 43, 105);
+
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+.main {
+    width: 80%;
+    margin: 0 auto; /*centraliza o container*/
+}
+.main .artigo{
+    background-color: rgb(98, 98, 214);
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+}   
+
+    /* orientation: landscape(dpaisagem) ou portrait(retrato) */
+
+    /*se o dispositivo tiver uma largura menor ou igual a 720 px e orientaçao retrato */
+    @media(max-width: 720px)and(orientation: portrait) {
+        .main .artigo{
+            background-color: pink;
+            width: 250px;
+            height: 275px;
+        }
+    }
+    /*se o dispositivo tiver uma largura menor ou igual a 600px Orientaçao empaisagem*/
+    @media(max-width: 600px), (orientation: landscape){
+        .main .artigo{
+            background-color: rgb(224, 7, 43);
+            width: 150px;
+            height: 175px;
+        }
+    }
+
+/* Mobile First (Movel Primeiro) */
+/* Se o dispositivo tiver uma largura maior ou igual a 800px */
+@media(min-width: 800px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/* Se o dispositivo tiver uma largura maior ou igual a 1000px */
+@media(min-width: 1000px) {
+    h1 {
+        font-size: 70px;
+    }
+}
